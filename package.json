@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "indexss.js",
   "scripts": {
-    "test": "mocha *.test.js --reporter landing",
+    "prepublish": "npm ls && npm test",
+    "test": "mocha *.test.js",
     "lint": "standard --fix"
   },
   "keywords": [],
