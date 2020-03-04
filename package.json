@@ -1,6 +1,6 @@
 {
   "name": "@andyrunciman/hsl-to-hex",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "indexss.js",
   "scripts": {
     "prepublish": "npm ls && npm test",
